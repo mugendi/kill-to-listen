@@ -1,0 +1,27 @@
+{
+	"name": "kill-to-listen",
+	"version": "1.0.0",
+	"description": "First kill TCP port before attempting to listen. Great for Express and other servers that need to listen to a port and use the server.listen(port) method.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"app",
+		"server",
+		"express",
+		"http",
+		"https",
+		"port",
+		"running",
+		"kill",
+		"listen",
+    "cross-platform"
+	],
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"cross-port-killer": "^1.4.0",
+		"debug-symbols": "^1.0.1"
+	}
+}
